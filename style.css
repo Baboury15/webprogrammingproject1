@@ -1,0 +1,50 @@
+.well{
+display: flex; 
+font-size: 60px;
+justify-content:space-around;
+color :white;
+
+}
+.grading-element-one{
+    background-color:#7c6f6f;
+    height: 900px;
+    margin-top: -1px
+}
+.About{
+font-size: 20px;
+color: white;
+background-color:#745151;
+height: 700px;
+margin-top: -1px
+}
+
+.grading-element-four{
+display: flex;
+flex-wrap: wrap;
+align-content: space-around;
+flex-direction: column;
+height: 900px;
+
+
+
+
+
+
+}
+
+.toucolor{
+    background-color:#745151;
+
+
+}
+#grading-element-three{
+    background-color: greenyellow;
+    
+
+
+}
+#soumettre{
+    background-color: greenyellow;
+
+
+}
