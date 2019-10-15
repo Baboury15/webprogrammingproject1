@@ -6,20 +6,25 @@
 
 	</head>
 	<body class="toucolor">
+
         <div >Fill out your Reservation form please</div>
 
         <br>
         
-		<form  id="grading-element-four" action="http://localhost:5000/form" method="post" name="grading-element-four">
-             <p>first name</p> <input name="testOne" type="text" value ='testOne' />
-             <p>last name</p><input name="testTwo" type="text" value="testTwo" />
+                <form  method="post" action="http://localhost:3000/form" class="form-element-hidden"
+                name="grading-element-four">
+                        
+             <p>first name</p> <input type="text"  name="testOne" value ='testOne' />
+             <p>last name </p> <input type="text"  name="testTwo"  value="testTwo"/>
 
-           <p>  Email </p><input name="testThree" type="text" value="testThree" />
-            <p> phone number </p><input name="text" type="text" placeholder="type here" />
+             <p>Email     </p>  <input type="text" name="testThree"  value="testThree" />
+        
+            <p> phone number</p><input type="text" name="text" placeholder="type here" />
 
  <br>
 			
-			<input id="soumettre" type="submit" />
+        <input id= "soumettre" type="submit" />
+        
 		</form>
 	</body>
 </html>
